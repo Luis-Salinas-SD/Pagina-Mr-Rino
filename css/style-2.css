@@ -1,12 +1,49 @@
-.des{
-    display: none;
-    list-style: none;
+* {
+    margin:0px;
+    padding:0px;
 }
 
-/* .navi li a:hover > ul{
-    display: block;
-} */ 
+#headeri {
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
-.navi ul li a:hover > ul {
-    display: block;
+ul, ol {
+    list-style:none;
+}
+
+.navi > li {
+    float:left;
+}
+
+.navi li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.navi li a:hover {
+    background-color:#434343;
+}
+
+.navi li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.navi li:hover > ul {
+    display:block;
+}
+
+.navi li ul li {
+    position:relative;
+}
+
+.navi li ul li ul {
+    right:-140px;
+    top:0px;
 }
