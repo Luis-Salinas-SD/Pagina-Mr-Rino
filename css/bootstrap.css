@@ -3334,7 +3334,7 @@ input[type=submit].btn-block {
     color: #e5eaf1;
     text-decoration: none;
     /* background-color: #127de7; */
-    background: rgba(61,156,245,1);
+    background-color: rgba(61,156,245,1);
 }
 
 .dropdown-item.active,
